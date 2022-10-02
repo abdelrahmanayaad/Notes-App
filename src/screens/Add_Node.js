@@ -1,15 +1,11 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import MyTabs from './src/navigation/botomTap'
-function App(props) {
-  return (
-    // <View style={styles.container}>
-    //   <Text>Hello World !</Text>
-    // </View>
-<>
-<MyTabs/>
 
-</>
+function Add_Node(props) {
+  return (
+    <View style={styles.container}>
+      <Text>Hello World !</Text>
+    </View>
   );
 }
 const styles = StyleSheet.create({
@@ -20,4 +16,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Add_Node;
