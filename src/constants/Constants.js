@@ -3,7 +3,9 @@ import {RFValue} from 'react-native-responsive-fontsize';
 export const COLORS = {
   NoteBackGround: '#D2E2ED',
   lightGray: '#eee',
+  darkGray: '#aaa',
   black: '#1F1F1F',
+  background: '#eee',
 };
 
 export const HEIGHT = {
