@@ -37,7 +37,7 @@ export const styles = StyleSheet.create({
   },
   plusIconWrapper: {
     position: 'absolute',
-    bottom: RFValue(15),
+    bottom: RFValue(70),
     right: RFValue(15),
     width: RFValue(50),
     height: RFValue(50),
