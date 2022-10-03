@@ -1,23 +1,19 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import MyTabs from './src/navigation/botomTap'
+
+import Input from './src/components/Input';
+import HomeScreen from './src/screens/HomeScreen';
+import AddNoteScreen from './src/screens/AddNoteScreen';
+import MyTabs from './src/navigation/botomTap';
+
 function App(props) {
   return (
-    // <View style={styles.container}>
-    //   <Text>Hello World !</Text>
-    // </View>
-<>
-<MyTabs/>
+    <>
+      <MyTabs />
+    </>
 
-</>
   );
 }
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});
+
 
 export default App;
